@@ -1,13 +1,26 @@
 @charset "UTF-8";
 
-.custom-shadow {
-    box-shadow: 0px 0px 25px 3px rgb(156, 156, 156);
-  }
-  .card {
-    transition: transform 0.1s ease-in-out, filter 0.1s ease-in-out;
-  }
+.bg-color-1{
+  background-color: #fce4d5;
+}
 
-  .card2:hover{
+.cor1{
+  color: #2d2e2c;
+}
+
+.custom-shadow {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.navbar-toggler:hover{
+  background-color: #9ec4bb;
+}
+
+.card {
+    transition: transform 0.1s ease-in-out, filter 0.1s ease-in-out;
+}
+
+.card2:hover{
     transform: scale(1.03);
     z-index: 2s;
-  }
+}
