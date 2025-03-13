@@ -4,11 +4,23 @@
   background-color: #fce4d5;
 }
 
-.titulo {
+.nota {
   font-size: 45px;
   font-weight: 400;
   display: flex;
   justify-content: center;
+}
+
+.titulo{
+  font-size: 40px;
+  font-weight: 400;
+  color: #9ec4bb;
+}
+
+.subTituloExtrato {
+  font-size: 18px;
+  font-weight: 400;
+  color: #9ec4bb;
 }
 
 .subTitulo {
@@ -48,4 +60,9 @@
 .card2:hover {
   transform: scale(1.03);
   z-index: 2s;
+}
+
+.cardExtrato {
+  background-color: #2d2e2c;
+  border-radius: 10px;
 }
