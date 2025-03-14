@@ -1,4 +1,7 @@
 @charset "UTF-8";
+.tamanhoBody{
+  height: 75vh;
+}
 
 .bg-color-1 {
   background-color: #fce4d5;
@@ -34,6 +37,10 @@
   justify-content: center;
 }
 
+#textoTable{
+  background-color: #9ec4bb;
+}
+
 #style-cards {
   background-color: #ccccbb;
   border: none;
@@ -64,5 +71,30 @@
 
 .cardExtrato {
   background-color: #2d2e2c;
+  border-radius: 10px;
+}
+
+.botaoPagar{
+  border: none;
+  background-color: #2d2e2c;
+  color: #9ec4bb;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.botaoPagar:hover{
+  background-color: #545551;
+  transition: ease-in-out 150ms;
+}
+
+.seta {
+  font-size: 35px;
+  padding: 15px;
+  color: #2d2e2c;
+}
+
+.extratoPagamento{
+  border: solid 1px #9ec4bb;
   border-radius: 10px;
 }
