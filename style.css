@@ -98,3 +98,23 @@
   border: solid 1px #9ec4bb;
   border-radius: 10px;
 }
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.botaoPagarCobranca{
+  border: none;
+  background-color: #9ec4bb;
+  color: #2d2e2c;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.botaoPagarCobranca:hover{
+  background-color: #719b91;
+  transition: ease-in-out 150ms;
+}
